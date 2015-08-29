@@ -6,7 +6,7 @@ void msleep(long ms);
  
 int main()
 {
-	DataSender* sender = new DataSender("224.52.53.100", 52368, 20);
+	DataSender* sender = new DataSender("224.52.53.100", 52368, 15);
 	SensorsDataRecovery sdr = SensorsDataRecovery(sender);
 	sender->startTimer();
 	while (1) {
