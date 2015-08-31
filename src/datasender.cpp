@@ -11,7 +11,7 @@ DataSender::DataSender(std::string host, int port, int frequency){
 }
 
 void DataSender::onDataReady(std::vector<float> pose, std::vector<float> accel, std::vector<float> gyro, std::vector<float> magneto){
-	
+
 	m_yaw += pose[0];
 	m_pitch += pose[1];
 	m_roll += pose[2];
