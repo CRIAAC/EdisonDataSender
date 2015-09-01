@@ -1,5 +1,4 @@
 #include "include/multicastserver.hpp"
-#include <msgpack.hpp>
 #include <iostream>
 
 MulticastServer::MulticastServer(std::string addr, int port){
