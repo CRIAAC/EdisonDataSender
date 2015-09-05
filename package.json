@@ -1,0 +1,16 @@
+{
+  "name": "edisondatasender",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Baptiste Lemarcis",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "ws": "^0.8.0"
+  }
+}

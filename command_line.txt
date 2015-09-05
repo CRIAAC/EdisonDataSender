@@ -1,1 +1,0 @@
-g++ src/multicastserver.cpp src/sensorsdatarecovery.cpp src/datasender.cpp src/main.cpp -o edisondatasender.x -lRTIMULib
